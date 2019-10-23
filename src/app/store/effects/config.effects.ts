@@ -13,7 +13,6 @@ import { EConfigActions, GetConfig, GetConfigSuccess } from '../actions/config.a
  * switchMap will cancel all the previous request if there and get the latest request response.
  * of returns whatever it takes.
  * ofType returns the observable of action. "For example, if actions has type Actions<AdditionAction|SubstractionAction>, and the type of the Addition action is add, then actions.pipe(ofType('add')) returns an Observable<AdditionAction>".
- *
  */
 
 @Injectable()
